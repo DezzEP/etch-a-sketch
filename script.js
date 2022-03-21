@@ -24,26 +24,41 @@ function divMake(numOf){
       divInDiv.style.flex = "1 0 auto";
       
     }
+  function changeColor(){
     
+    this.style.background = "blue";
   }
+  }
+
+  const colorChange = Array.from(document.querySelectorAll('.divColor'));
+  colorChange.forEach(colorChange => colorChange.addEventListener('mouseover', changeColor));
+  
+
+
+
+  
+
+  
+  }
+
   
   
 
     
-}
-
-
-  
-  
-
-
-
 
 
 
   
+  
 
-const testNum = 50;
+
+
+
+
+
+  
+
+const testNum = 16;
 divMake(testNum)
 
 
