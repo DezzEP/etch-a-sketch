@@ -1,0 +1,15 @@
+
+
+
+.content{ 
+  display: flex;
+  flex-wrap:wrap;
+  height: 50em;
+  width: 50em;
+  flex-direction:column;
+  background-color:blue;
+  margin: 0px auto;
+  
+}
+
+
