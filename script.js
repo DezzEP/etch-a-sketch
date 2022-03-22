@@ -25,41 +25,40 @@ function divMake(numOf){
       
     }
   function changeColor(){
-    
     this.style.background = "blue";
   }
-  }
+ 
+  
 
+}
+
+//determines which div mouse is on and changes it's color
   const colorChange = Array.from(document.querySelectorAll('.divColor'));
   colorChange.forEach(colorChange => colorChange.addEventListener('mouseover', changeColor));
+}
+
+document.getElementById("reset").onclick = function(){
+  window.location.reload();
+}
   
+function GridNum(){
+  const num = prompt("enter a number between 2 and 100 to form a grid -- 10 = 10x10 grid")
+  if(isNaN(num)){
+    GridNum();}
+  else if(num < 2 || num > 100){
+    GridNum();
 
-
-
-  
-
-  
   }
-
   
-  
-
+    else{
+    return divMake(num);
+  }
     
-
-
-
+    
   
-  
+}
+GridNum();
 
-
-
-
-
-
-  
-
-const testNum = 16;
-divMake(testNum)
 
 
 

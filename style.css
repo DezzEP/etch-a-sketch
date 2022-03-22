@@ -1,15 +1,43 @@
+#header{
+  display: flex;
+  margin-top: 5em;
+  margin-bottom:3em;
+  align-content: center;
+  justify-content: center;
+  
 
-
+}
+.title{
+  font-size: 48px;
+}
 
 .content{ 
   display: flex;
   flex-wrap:wrap;
-  height: 50em;
-  width: 50em;
+  height: 45em;
+  width: 45em;
   flex-direction:column;
-  background-color:blue;
-  margin: 0px auto;
+  margin: 0 auto;
   
+  
+  
+}
+
+#buttons{
+  display: flex;
+  justify-content: center;
+  margin-top:3em;
+  padding: 2em;
+  background-color: #5768FF;
+
+}
+
+button{
+  width: 10em;
+  height: 3em;
+}
+button:hover{
+  background-color: #EBB91C;
 }
 
 
