@@ -79,6 +79,11 @@ button{
   background-color: yellow;
   
 }
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
 
 
 
