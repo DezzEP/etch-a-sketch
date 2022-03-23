@@ -1,3 +1,7 @@
+body{
+  background-color: #E3F5FC
+}
+
 #header{
   display: flex;
   margin-top: 5em;
@@ -22,22 +26,59 @@
   
   
 }
+#text-color{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#colors{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  gap: 3em;
+  padding: 1em;
+}
 
-#buttons{
+/* things to do with buttons -- */
+#resetbutton{
   display: flex;
   justify-content: center;
   margin-top:3em;
-  padding: 2em;
-  background-color: #5768FF;
+  padding: 2em 0 2em 0;
+  background-color: black;
 
 }
 
 button{
   width: 10em;
-  height: 3em;
+  height: 2.5em;
 }
-button:hover{
+#reset:hover{
   background-color: #EBB91C;
+  height: 2.7em;
 }
+
+#color-red:hover{
+  background-color: red;
+  color: #0C998D;
+  
+}
+#color-blue:hover{
+  background-color: blue;
+  color: #DBB116;
+}
+
+#color-purple:hover{
+  background-color: purple;
+}
+
+#color-pink:hover{
+  background-color: pink;
+}
+#color-yellow:hover{
+  background-color: yellow;
+  
+}
+
 
 
